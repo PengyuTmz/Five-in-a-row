@@ -50,7 +50,7 @@ class AI:
         _space = None  # 对方连续子中有无空格
         both = 0  # 我方连续子两端有无阻挡
         _both = 0  # 对方连续子两端有无阻挡
-        # 如果是 1 表示是边上是我方子，2 表示敌方子
+        # 如果是 1 表示是边上是我方子 2 表示敌方子
         flag = self._get_stone_color(point, x_offset, y_offset, True)
         if flag != 0:
             for step in range(1, 6):
